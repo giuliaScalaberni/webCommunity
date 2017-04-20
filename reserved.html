@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Simu 2015</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		 
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="../Controllers/script.js"></script>
+	    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		</meta>
+	</head>
+	<body>
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4">
+
+				<div class="form-group">
+					<label>Nickname</label>
+					<label id="lblNick">Nickname</label>
+					<button id="btnLogout" class="btn btn-default">Log out</button> 					
+			</div>
+				<div class="form-group">
+					<label>Titolo evento</label>
+					<input type="text" class="form-control" id="tit" placeholder="titolo" required>
+				</div>
+				<div class="form-group">
+						<label>Provincia</label>
+					<select name="dropdown" id="prov">
+					</select>
+				</div>
+				<div class="form-group">
+						<label>Categoria</label>
+					<select name="dropdown" id="cat">
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Data</label>
+					<input type="text"  name="date" id="datepicker" required>
+				</div>
+		<div class="form-group">
+					<label>Testo del Post</label>
+				 <textarea rows="8" cols="50" name="postText"id="postText" required> </textarea>
+				</div>
+				<label>Valutazione</label>
+			<label class="radio-inline"><input type="radio" name="optradio" id="1" checked>1</label>
+<label class="radio-inline"><input type="radio" name="optradio" id="2">2</label>
+<label class="radio-inline"><input type="radio" name="optradio" id="3">3</label>
+			
+<label class="radio-inline"><input type="radio" name="optradio" id="4">4</label>
+			
+<label class="radio-inline"><input type="radio" name="optradio"id="5">5</label>
+				<br>
+			<button class="btn btn-primary" id="btnInsertEv">Inserisci</button> 
+			<hr>
+				<div>
+					<button class="btn btn-danger" id="btnGetEv">Get All</button>
+			
+			</div>
+				
+			<!--div id="insertEv"> </div-->
+			
+	
+		
+		
+			<h3>				Your Events			</h3>
+		<div id="contentMyEventi"></div>	
+	
+			<div id="titEv">
+				
+			</div>
+<input type="text" id="search"  placeholder="Search for title..">			
+			<div id="contentEventi">
+			
+			</div>
+			
+		</div>
+			<div class="col-lg-4">
+		</div>
+		
+			
+	</body>
+	
+</html>

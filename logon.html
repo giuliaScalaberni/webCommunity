@@ -1,0 +1,45 @@
+<html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src ="../Controllers/scriptLogon.js"></script>
+	<body>
+			<div class="col-xs-6 col-md-4" ></div>
+			<div  class="col-xs-6 col-md-4" >
+				<h2 class="text-center">WEB COMMUNITY</h2>
+				<div class="form-group">
+					<label >Nickname</label>
+					<input type="text" class="form-control"   id="nick" placeholder="Nickname" required>
+				</div>
+				<div class="form-group">
+					<label >Nome</label>
+					<input type="text" class="form-control"   id="nome" placeholder="Nome" required>
+				</div>
+				<div class="form-group">
+					<label >Cognome</label>
+					<input type="text" class="form-control"   id="cogn" placeholder="Cognome" required>
+				</div>
+				<div class="form-group">
+						<label>Provincia</label>
+					<select name="dropdown" id="prov">
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control" id="email" placeholder="Email" required>
+				</div>
+				<div class="form-group ">
+					<labe>Password</label>
+					<input type="password" class="form-control" id="psw" placeholder="Password" required>
+				</div>
+				<div class="form-group ">
+					<label>Conferma Password</label>
+					<input type="password" class="form-control" id="psw2" placeholder="Conferma Password" required>
+				</div>
+				<button id="btnLogon" class="btn btn-success">Log on</button>
+				<button class="btn btn-info" onClick="location.href = 'index.html'" id="btnBack">Home</button> 
+				<button class="btn btn-default" onClick="location.href = 'login.html'" id="btnLogin">Log in</button> 
+			</div>
+	
+	</body>
+</html>
